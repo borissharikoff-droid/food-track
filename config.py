@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Telegram Bot Token
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('BOT_TOKEN', '8361266417:AAEfwm_4kJHnLopUyH_sA3nArNcb42CcRpQ')
 
 # Database
 DATABASE_PATH = 'fitness_tracker.db'
