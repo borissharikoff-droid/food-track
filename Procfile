@@ -1,1 +1,1 @@
-web: python start.py
+worker: python railway_start.py
